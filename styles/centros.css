@@ -1,0 +1,60 @@
+input,
+textarea,
+select {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  border: 2px solid #c9ccc9;
+  color: #283629;
+  outline: none;
+}
+
+#cuerpo{
+    position: relative;
+    border: 1px solid black;
+}
+
+.centro{
+    height: 400px;
+    width: 30%;
+    position: relative;
+
+    overflow: hidden;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.centros1{
+    height: 400px;
+    width: 100%;
+    overflow: scroll;
+    text-align: left;
+    border: 1px solid green;
+}
+
+.centros{
+    border: 1px solid gray;
+}
+
+.centros p{
+    font-size: small;
+    font-stretch: semi-expanded;
+    color: rgb(61, 61, 61);
+}
+.centros .movil{
+    rotate: 90deg;
+}
+
+.centros img{
+    width: 10px;
+}
+
+.mapa{
+    width: 60%;
+    position: relative;
+    top: 0;
+    left: 40%;
+}
